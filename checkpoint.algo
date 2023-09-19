@@ -1,0 +1,21 @@
+ALGORITHM checkpoint
+VAR
+    a,s,v,i: integer;
+    sen: string[];
+BEGIN
+    write("Enter a sentence: ");
+    read(sen);
+    a :=length(sen);
+    s :=1;
+    v :=0;
+    for i from 0 to (a-1) do
+        if sen[i] =" " then
+            s :=s+1;
+        if sen[i] ="a" or sen[i]="e" or sen[i]="y" or sen[i]="u" or sen[i]="i" or sen[i]="o" then
+            v :=v+1;
+        end_id
+    end_for
+    write("Length of the sentence:", a);
+    write("Number of words in the sentence:", s);
+    write("Number of vowels in the sentence:", v);
+END
