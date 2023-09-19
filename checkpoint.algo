@@ -8,7 +8,7 @@ BEGIN
     a :=length(sen);
     s :=1;
     v :=0;
-    for i from 0 to (a-1) do
+    for i from 0 to (a-1) step 1 do
         if sen[i] =" " then
             s :=s+1;
         if sen[i] ="a" or sen[i]="e" or sen[i]="y" or sen[i]="u" or sen[i]="i" or sen[i]="o" then
