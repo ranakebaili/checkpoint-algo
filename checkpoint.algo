@@ -5,7 +5,7 @@ VAR
 BEGIN
     write("Enter a sentence: ");
     read(sen);
-    a :=length(sen);
+    a :=sen.lenth;
     s :=1;
     v :=0;
     for i from 0 to (a-1) step 1 do
